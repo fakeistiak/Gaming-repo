@@ -272,7 +272,7 @@ background-image: url("./black.png");
     bottom: 50px;
     top: 220px;
     z-index: 10px;
-    left: 360px;
+    left: 560px;
     
 }
 .heading{
@@ -292,6 +292,77 @@ background-image: url("./black.png");
     position: relative;
     left: 500px;
 }
+.users
+{height: 40vh;
+
+}
+.last-section{
+    background-color: black;
+    height: 55vh;
+   
+   
+
+}
+.logos-2{
+    width: 80px;
+    padding-left: 260px;
+    position: relative;
+    left: 380px;
+    top: 64px;
+}
+.G-2{
+    color: #ee3491;
+}
+.gamer-2{
+    color: black;
+    font-size: 2em;
+    padding-right: 600px;
+    position: relative;
+    left: 720px;
+    top:20px;
+    
+    
+}
+.white {
+    color: white;
+}
+.list{
+    position: relative;
+    top: 80px;
+    color: white;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.text-last{
+    color: white;
+    position: relative;
+
+}
+.white-2{
+    color: white;
+    position: relative;
+    bottom: 100px;
+    right: 20px;
+    font-size: 2em;
+
+}
+.p-para{
+    position: relative;
+    right:20px;
+    bottom: 70px;
+    color: white;
+}
+.un-li{
+    color: white;
+    right: 2200px;
+}
+
+.heading-image-2{
+    position: relative;
+    right: 150px;
+}
+
 
 
 
