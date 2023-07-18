@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0%;
+
+}
+.container{
+    /* background-color: rgb(19, 18, 18); */
+    padding: 20px;
+    list-style: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menus{
+    display: flex;
+}
+
+.logos{
+    width: 120px;
+    padding-left: 260px;
+   
+   
+}
+.item{
+    margin: 10px;
+    padding-right: 7px;
+    font-size: 18px;
+    color: black;
+ 
+}
+.item:hover{
+    background-color: lightgray;
+}
+.image{
+    width: 520px;
+    padding-bottom: 200px;
+    
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    border: 2px solid gray; 
+    color: white;
+    align-items: center;
+background-image: url("./black.png");
+/* background:linear-gradient(45deg,#0d0000,#000); */
+ 
+    
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 100px;
+    color: #8758F1 100%;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.goat{
+    font-size: 65px;
+    font-weight: bolder;
+    color: black;
+    padding-bottom: 100px;
+    color: rgb(243, 45, 24) ;
+}
+.G{
+    color: #ee3491;
+}
+.gamer{
+    color: black;
+    font-size: 2em;
+    padding-right: 600px;
+    
+    
+}
+.youtube{
+    padding-top:6px;
+    padding-right: 20px;
+}
+.gaming{
+    color: black;
+}
+.para{
+    color: black;
+    /* padding-left: 20px; */
+    padding-bottom: 100px;
+   
+
+}
+.banner-section{
+    display: flex;
+    padding-bottom: 200px;
+}
+.btn{
+  margin-top: 25px;
+   background-color: red;
+    color: white;
+    border: 2px;
+    border-radius:20px;
+    height: 50px;
+    width: 100px;
+}
+.buttons{
+    display: flex;
+    justify-content: baseline;
+    
+}
+.btn-2{
+    margin-top: 25px;
+    background-color: rgb(60, 170, 238);
+     color: white;
+     border: 2px;
+     border-radius:20px;
+     height: 50px;
+     width: 100px;
+}
