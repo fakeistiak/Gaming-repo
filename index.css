@@ -14,6 +14,8 @@
 }
 .menus{
     display: flex;
+    position: relative;
+    right: 120px;
 }
 
 .logos{
@@ -35,7 +37,8 @@
 .image{
     width: 520px;
     padding-bottom: 200px;
-    
+    position: relative;
+    right: 55px;
 }
 .banner-container{
     display: flex;
@@ -45,7 +48,7 @@
     color: white;
     align-items: center;
 background-image: url("./black.png");
-/* background:linear-gradient(45deg,#0d0000,#000); */
+/
  
     
 }
@@ -89,6 +92,9 @@ background-image: url("./black.png");
     color: black;
     /* padding-left: 20px; */
     padding-bottom: 100px;
+    position: relative;
+    left: 30px;
+    bottom: 25px;
    
 
 }
@@ -104,6 +110,9 @@ background-image: url("./black.png");
     border-radius:20px;
     height: 50px;
     width: 100px;
+    position: relative;
+    right: 440px;
+    bottom: 10px;
 }
 .buttons{
     display: flex;
@@ -118,4 +127,93 @@ background-image: url("./black.png");
      border-radius:20px;
      height: 50px;
      width: 100px;
+     position: relative;
+     right: 420px;
+     bottom: 10px;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.about-info{
+    justify-content: right;
+}
+
+.first{
+    position: relative;
+    bottom: 100px;
+}
+.second{
+    position: relative;
+    bottom: 65px;
+    right: 120px;
+}
+.third{
+    position: relative;
+    bottom: 27px;
+    right: 220px;
+}
+.btn-3{
+    background-color: rgb(60, 170, 238);
+    color: white;
+    border: 2px;
+    border-radius:20px;
+    height: 50px;
+    width: 100px;
+    position: relative;
+    top: 15px;
+    
+
+}
+.main-para{
+    position: relative;
+    top: 30px;
+    text-overflow: ellipsis;
+    
+}
+.main-para-2{
+    font-size: 25px;
+}
+.image-2{
+    width: 520px;
+    padding-bottom: 200px;
+    position: relative;
+    left: 105px;
+    top: 120px;
+    
+
+}
+.goat-2{
+    font-size: 65px;
+    font-weight: bolder;
+    color: black;
+    padding-bottom: 100px;
+    color: rgb(243, 45, 24) ;
+    position: relative;
+    top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px;){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
