@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0%;
-
+   
 }
 .container{
    
@@ -304,8 +304,8 @@ background-image: url("./black.png");
    
 
 }
-.logos-2{
-    width: 80px;
+ .logos-2{ 
+    width: 60px;
     padding-left: 260px;
     position: relative;
     left: 380px;
@@ -317,15 +317,17 @@ background-image: url("./black.png");
 .gamer-2{
     color: black;
     font-size: 2em;
-    padding-right: 600px;
+   
     position: relative;
-    left: 720px;
+    
     top:20px;
+   display: flex;
+  justify-content: center;
     
     
 }
 .white {
-    color: white;
+    color: white; 
 }
 .list{
     position: relative;
