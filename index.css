@@ -65,11 +65,13 @@ background-image: url("./black.png");
     margin-bottom: 15px;
 }
 .goat{
+
     font-size: 65px;
     font-weight: bolder;
     color: black;
     padding-bottom: 100px;
     color: rgb(243, 45, 24) ;
+    
 }
 .G{
     color: #ee3491;
@@ -221,9 +223,10 @@ background-image: url("./black.png");
 .pic{
     width: 240px;
     height: 280px;;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     position: relative;
-    /* top: 50px; */
+    transition: transform 0.3s;
+    
 }
 #funny{
     color: rgb(243, 45, 24);
@@ -294,7 +297,7 @@ background-image: url("./black.png");
   
 }
 .users
-{height: 40vh;
+{
 
 }
 .last-section{
@@ -422,22 +425,24 @@ background-image: url("./black.png");
 
     height: 50px;
     width: 50px;
-    position: relative;
+
 
 
 }
-.users{height: 400px;
+.users{
+    /* height: 40vh; */
+    height: 400px;
     display: flex;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 100px;
+    left: 60px;
     
 }
 .short-line{
-    display: flex;
+    
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: center; 
@@ -445,6 +450,7 @@ background-image: url("./black.png");
     left: 60px;
     bottom: 60px;
 }
+
 .short-line:hover{
     width: 150px;
     height: 40px;
@@ -466,32 +472,23 @@ background-image: url("./black.png");
     background-color: aqua;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 426px;){
-    header{
-        padding: 20px;
-    }
-   
-    section{
-        flex-direction: column;
-    }
-    .service-container{
-        display: flex;
-        flex-direction: column;
-    }
+.pic:hover{
+    transform: scale(1.1);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
