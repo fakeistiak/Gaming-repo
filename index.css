@@ -4,7 +4,7 @@
 
 }
 .container{
-    /* background-color: rgb(19, 18, 18); */
+   
     padding: 20px;
     list-style: none;
     color: white;
@@ -90,7 +90,7 @@ background-image: url("./black.png");
 }
 .para{
     color: black;
-    /* padding-left: 20px; */
+    padding-left: 20px;
     padding-bottom: 100px;
     position: relative;
     left: 30px;
@@ -238,7 +238,7 @@ background-image: url("./black.png");
 .name{
     display: flex;
    justify-content: center;
-   text-decoration: underline;
+   text-decoration: none;
    margin-top: 10px;
 }
 .about-2{
@@ -283,14 +283,15 @@ background-image: url("./black.png");
     border: 2px solid gray;
     align-items: center;
     
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
 
 }
-.heading-image-2{
+.heading-image{
+
     height: 700px;
-    width: 680px;
+    /* width: 680px; */
     position: relative;
-    left: 500px;
+  
 }
 .users
 {height: 40vh;
@@ -342,26 +343,58 @@ background-image: url("./black.png");
 .white-2{
     color: white;
     position: relative;
-    bottom: 100px;
-    right: 20px;
+    top: 290px;
+    right: 150px;
     font-size: 2em;
 
 }
 .p-para{
     position: relative;
-    right:20px;
-    bottom: 70px;
-    color: white;
+    right:150px;
+    top: 300px;
+    color: rgb(212, 205, 205);
 }
 .un-li{
     color: white;
-    right: 2200px;
+    position: relative;
+    top:350px;
+    right: 130px;
+   
 }
 
-.heading-image-2{
+.heading-image {
     position: relative;
-    right: 150px;
+    left: 200px;
+    bottom: 160px;
 }
+.list-2{
+    color: white;
+    position: relative;
+    top: 238px;
+    left: 130px;
+}
+.btn-4{
+    background-color: rgb(60, 170, 238);
+    color: white;
+    border: 2px;
+    border-radius:20px;
+    height: 50px;
+    width: 150px;
+    position: relative;
+    bottom: 360px;
+    right: 150px;
+    font-weight: bold;
+}
+.footer-para{
+    
+    display: flex;
+    justify-content: ;
+}
+.likha{
+    color: white;
+}
+
+
 
 
 
