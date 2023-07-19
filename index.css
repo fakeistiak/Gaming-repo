@@ -418,6 +418,54 @@ background-image: url("./black.png");
     font-size: 50px;
     color: white;
 }
+.short-pic{
+
+    height: 50px;
+    width: 50px;
+    position: relative;
+
+
+}
+.users{height: 400px;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 100px;
+    
+}
+.short-line{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center; 
+    position: relative;
+    left: 60px;
+    bottom: 60px;
+}
+.short-line:hover{
+    width: 150px;
+    height: 40px;
+   background-color: aqua;
+}
+#action{
+    position: relative;
+    top: 60px;
+}
+#Educational{
+    position: relative;
+    top: 60px;
+}
+#music{
+    position: relative;
+    top: 60px;
+}
+.short-pic:hover{
+    background-color: aqua;
+    
+}
 
 
 
@@ -434,12 +482,16 @@ background-image: url("./black.png");
 
 
 
-@media screen and (max-width: 576px;){
+@media screen and (max-width: 426px;){
     header{
         padding: 20px;
     }
    
     section{
+        flex-direction: column;
+    }
+    .service-container{
+        display: flex;
         flex-direction: column;
     }
 }
