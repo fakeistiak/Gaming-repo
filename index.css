@@ -299,7 +299,7 @@ background-image: url("./black.png");
 }
 .last-section{
     background-color: black;
-    height: 55vh;
+    height: 65vh;
    
    
 
@@ -385,14 +385,34 @@ background-image: url("./black.png");
     right: 150px;
     font-weight: bold;
 }
-.footer-para{
-    
+.footer-likha{
+    color: white;
     display: flex;
-    justify-content: ;
+    justify-content: space-evenly;
+    
+   position: relative;
+   top: 250px;
+
 }
 .likha{
+    color: lightslategray;
+}
+.likha-last{
+    color: lightslategrey;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 280px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 110px;
+    font-size: 50px;
     color: white;
 }
+
 
 
 
